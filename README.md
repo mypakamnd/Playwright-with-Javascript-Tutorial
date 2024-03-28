@@ -8,16 +8,10 @@
 git clone https://github.com/mypakamnd/Playwright-with-Javascript-Tutorial.git
 ```
 
-จากนั้นทำการติดตั้ง Playwright เลือก Javascript โดยใช้คำสั่ง
+จากนั้นทำการติดตั้ง package ของ Playwright
 
 ```bash
-npm init playwright@latest
-```
-
-หรือ
-
-```bash
-yarn create playwright
+npm install
 ```
 
 ## Run
