@@ -32,5 +32,5 @@ npm install
 playwright สามารถ generate code จากการคลิกบน browser ได้ด้วยคำสั่ง
 
 ```bash
-npm npx playwright codegen
+npx playwright codegen
 ```
