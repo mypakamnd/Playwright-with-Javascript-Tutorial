@@ -26,3 +26,11 @@ npm install
 | **npx playwright test [ชื่อไฟล์] --project=[ชื่อ browser] --headed** | mode Run Script โดยเปิด browser จริงไปด้วย | npx playwright test 01_Create_and_RunTest.spec.js --project=chromium --headed
 | **npx playwright test [ชื่อไฟล์] --project=[ชื่อ browser] --debug ** | mode debug | npx playwright test 01_Create_and_RunTest.spec.js --project=chromium --debug
 | ** npx playwright test [ชื่อไฟล์] --project=[ชื่อ browser] --ui ** | mode ui ของ playwright |npx playwright test 01_Create_and_RunTest.spec.js --project=chromium --ui
+
+## Record and Generate code
+
+playwright สามารถ generate code จากการคลิกบน browser ได้ด้วยคำสั่ง
+
+```bash
+npm npx playwright codegen
+```
